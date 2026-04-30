@@ -42,7 +42,7 @@ const fontSans = Noto_Sans_KR({
  *  4. 네이버 서치어드바이저 → 사이트 등록 → HTML 태그에서 코드 복사
  *     → .env.local의 NAVER_SITE_VERIFICATION에 붙여넣기
  * ──────────────────────────────────────────────────── */
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://B-studio.com'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://b-studio.my'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
