@@ -42,19 +42,15 @@ export default function HomePage() {
               사연 보내기
             </Button>
             <div className="flex items-center gap-3">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-lg border border-neutral-100 p-2 leading-none">
-                <div className="flex flex-col items-center justify-center font-black tracking-tighter" style={{ fontSize: '11px' }}>
-                  <div className="flex gap-0.5">
-                    <span className="text-[#3B82F6]">S</span>
-                    <span className="text-[#10B981]">a</span>
-                    <span className="text-[#F59E0B]">y</span>
-                  </div>
-                  <div className="flex gap-0.5 mt-0.5">
-                    <span className="text-[#EF4444]">S</span>
-                    <span className="text-[#10B981]">i</span>
-                    <span className="text-[#3B82F6]">n</span>
-                    <span className="text-[#10B981]">g</span>
-                  </div>
+              <div className="flex h-12 px-5 items-center justify-center rounded-2xl bg-white shadow-sm border border-neutral-100">
+                <div className="font-black tracking-tight text-[22px]" style={{ fontFamily: 'var(--font-sans)' }}>
+                  <span className="text-[#3B82F6]">S</span>
+                  <span className="text-[#10B981]">a</span>
+                  <span className="text-[#F59E0B]">y</span>
+                  <span className="ml-1.5 text-[#EF4444]">S</span>
+                  <span className="text-[#10B981]">i</span>
+                  <span className="text-[#3B82F6]">n</span>
+                  <span className="text-[#10B981]">g</span>
                 </div>
               </div>
               <Button variant="outline" size="lg" className="rounded-full" href="https://www.youtube.com/@SAYSING-singing">
