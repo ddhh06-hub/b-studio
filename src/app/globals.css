@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+/* ── Font ───────────────────────────────────────────
+ *  `--font-sans` is injected by `next/font/google` in
+ *  layout.tsx. No fixed font is baked into this template
+ *  — designer picks fonts based on project mood.
+ * ──────────────────────────────────────────────────── */
+@theme {
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --color-primary: #6366f1; /* Indigo-500 */
+  --color-secondary: #ec4899; /* Pink-500 */
+  
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  --animate-spin-slow: spin-slow 8s linear infinite;
+}
+
+/* ── Custom utility layer ────────────────────────────
+ *  Add project-wide overrides here.
+ * ──────────────────────────────────────────────────── */
+@layer base {
+  body {
+    @apply bg-white text-neutral-900 antialiased;
+  }
+}
+
+/* ── Smooth scroll ───────────────────────────────────  */
+html {
+  scroll-behavior: smooth;
+}
