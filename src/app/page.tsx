@@ -4,19 +4,6 @@ import { Card } from '@/components/ui/Card'
 import { AnimatedSection } from '@/components/ui/AnimatedSection'
 import { Music, Youtube, Heart, Mail, Disc } from 'lucide-react'
 
-function SaySingLogo({ className }: { className?: string }) {
-  return (
-    <div className={`inline-flex items-center font-black tracking-tight ${className}`} style={{ fontFamily: 'var(--font-sans)' }}>
-      <span className="text-[#3B82F6]">S</span>
-      <span className="text-[#10B981]">a</span>
-      <span className="text-[#F59E0B]">y</span>
-      <span className="ml-1 text-[#EF4444]">S</span>
-      <span className="text-[#10B981]">i</span>
-      <span className="text-[#3B82F6]">n</span>
-      <span className="text-[#10B981]">g</span>
-    </div>
-  )
-}
 
 export default function HomePage() {
   return (
